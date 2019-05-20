@@ -9901,6 +9901,304 @@ Diode with low voltage drop</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SPH0641LM4H-1_MICROPHONE">
+<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
+&lt;a href = "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0641LM4H-1.pdf"&gt;Datasheet&lt;/a&gt;
+
+&lt;h4&gt;Specifications&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 5
+&lt;li&gt; Devices: SPH061LM4H-1 Microphone
+&lt;/ul&gt;</description>
+<wire x1="1.524" y1="1.424" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.932" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-1.524" x2="1.524" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-2.032" x2="1.016" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-2.032" x2="-1.016" y2="-2.032" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="1.932" x2="-1.524" y2="1.932" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.932" x2="-1.524" y2="1.424" width="0.1524" layer="21"/>
+<smd name="4" x="0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
+<hole x="0" y="-1" drill="0.8"/>
+<smd name="5" x="0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
+<smd name="1" x="-0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
+<smd name="2" x="-0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
+<circle x="0" y="-1" radius="0.6625" width="0.6" layer="29"/>
+<smd name="3" x="0" y="-1.65" dx="0.5" dy="0.2" layer="1"/>
+<text x="-1.6" y="2.2" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.6" y="-2.9" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.44" y="-1.652" curve="70"/>
+<vertex x="0.44" y="-1.652"/>
+<vertex x="0.3" y="-1.445" curve="-70"/>
+<vertex x="-0.3" y="-1.445"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.652" y="-1.44" curve="70"/>
+<vertex x="0.652" y="-0.56"/>
+<vertex x="0.445" y="-0.7" curve="-70"/>
+<vertex x="0.445" y="-1.3"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="-0.652" y="-0.56" curve="70"/>
+<vertex x="-0.652" y="-1.44"/>
+<vertex x="-0.445" y="-1.3" curve="-70"/>
+<vertex x="-0.445" y="-0.7"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.44" y="-0.348" curve="70"/>
+<vertex x="-0.44" y="-0.348"/>
+<vertex x="-0.3" y="-0.555" curve="-70"/>
+<vertex x="0.3" y="-0.555"/>
+</polygon>
+<smd name="6" x="-0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="8" x="0" y="-0.35" dx="0.5" dy="0.2" layer="1"/>
+<polygon width="0.01" layer="1">
+<vertex x="-0.51" y="-1" curve="-90"/>
+<vertex x="0" y="-0.49"/>
+<vertex x="0" y="-0.19" curve="90"/>
+<vertex x="-0.81" y="-1"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="-1.51" curve="-90"/>
+<vertex x="-0.51" y="-1"/>
+<vertex x="-0.81" y="-1" curve="90"/>
+<vertex x="0" y="-1.81"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0.51" y="-1" curve="-90"/>
+<vertex x="0" y="-1.51"/>
+<vertex x="0" y="-1.81" curve="90"/>
+<vertex x="0.81" y="-1"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="-0.49" curve="-90"/>
+<vertex x="0.51" y="-1"/>
+<vertex x="0.81" y="-1" curve="90"/>
+<vertex x="0" y="-0.19"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="SPH0641LM4H-1_MICROPHONE">
+<description>&lt;h3&gt; SPH0641LM4H-1 Microphone&lt;/h3&gt;
+
+
+A miniature, high-performance, low power,
+bottom port silicon digital microphone with a single bit PDM output.</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
+<pin name="VDD" x="-5.08" y="7.62" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="-5.08" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
+<pin name="SEL" x="12.7" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="CLK" x="12.7" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
+<pin name="DATA" x="12.7" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<text x="1.524" y="6.604" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="2.286" y="-6.604" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-2.286" y1="-1.27" x2="0.508" y2="-1.27" width="0.3048" layer="94"/>
+<wire x1="-2.286" y1="1.27" x2="0.508" y2="1.27" width="0.3048" layer="94"/>
+<circle x="-5.08" y="0" radius="3.048" width="0.3048" layer="94"/>
+<wire x1="-8.128" y1="-3.048" x2="-8.128" y2="3.048" width="0.3048" layer="94"/>
+<text x="-7.112" y="-0.762" size="1.778" layer="94" ratio="15">MIC</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SPH0641LM4H-1_MICROPHONE" prefix="E">
+<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
+
+A miniature, high-performance, low power,
+bottom port silicon digital microphone with a single bit PDM output.</description>
+<gates>
+<gate name="E1" symbol="SPH0641LM4H-1_MICROPHONE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPH0641LM4H-1_MICROPHONE">
+<connects>
+<connect gate="E1" pin="CLK" pad="4"/>
+<connect gate="E1" pin="DATA" pad="1"/>
+<connect gate="E1" pin="GND" pad="3 6 7 8"/>
+<connect gate="E1" pin="SEL" pad="2"/>
+<connect gate="E1" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14361" constant="no"/>
+<attribute name="VALUE" value="SPH0641LM4H-1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="MSOP10">
+<wire x1="-1.4" y1="1.425" x2="-1.4" y2="-1.425" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-1.425" x2="1.4" y2="-1.425" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.425" x2="1.4" y2="1.425" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.425" x2="-1.4" y2="1.425" width="0.2032" layer="21"/>
+<circle x="-1.75" y="1.55" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-2.05" y="1" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="2" x="-2.05" y="0.5" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="-2.05" y="0" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="4" x="-2.05" y="-0.5" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="5" x="-2.05" y="-1" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="6" x="2.05" y="-1" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="7" x="2.05" y="-0.5" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="8" x="2.05" y="0" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="2.05" y="0.5" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="2.05" y="1" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<rectangle x1="-2.1125" y1="0.5125" x2="-1.8125" y2="1.4875" layer="51" rot="R270"/>
+<rectangle x1="-2.1125" y1="0.0125" x2="-1.8125" y2="0.9875" layer="51" rot="R270"/>
+<rectangle x1="-2.1125" y1="-0.4875" x2="-1.8125" y2="0.4875" layer="51" rot="R270"/>
+<rectangle x1="-2.1125" y1="-0.9875" x2="-1.8125" y2="-0.0125" layer="51" rot="R270"/>
+<rectangle x1="-2.1125" y1="-1.4875" x2="-1.8125" y2="-0.5125" layer="51" rot="R270"/>
+<rectangle x1="-2.25" y1="0.45" x2="-1.85" y2="1.55" layer="29" rot="R270"/>
+<rectangle x1="-2.25" y1="-0.05" x2="-1.85" y2="1.05" layer="29" rot="R270"/>
+<rectangle x1="-2.25" y1="-0.55" x2="-1.85" y2="0.55" layer="29" rot="R270"/>
+<rectangle x1="-2.25" y1="-1.05" x2="-1.85" y2="0.05" layer="29" rot="R270"/>
+<rectangle x1="-2.25" y1="-1.55" x2="-1.85" y2="-0.45" layer="29" rot="R270"/>
+<rectangle x1="-2.1875" y1="0.5625" x2="-1.9375" y2="1.4375" layer="31" rot="R270"/>
+<rectangle x1="-2.1875" y1="0.0625" x2="-1.9375" y2="0.9375" layer="31" rot="R270"/>
+<rectangle x1="-2.1875" y1="-0.4375" x2="-1.9375" y2="0.4375" layer="31" rot="R270"/>
+<rectangle x1="-2.1875" y1="-0.9375" x2="-1.9375" y2="-0.0625" layer="31" rot="R270"/>
+<rectangle x1="-2.1875" y1="-1.4375" x2="-1.9375" y2="-0.5625" layer="31" rot="R270"/>
+<rectangle x1="1.8125" y1="-1.4875" x2="2.1125" y2="-0.5125" layer="51" rot="R90"/>
+<rectangle x1="1.8125" y1="-0.9875" x2="2.1125" y2="-0.0125" layer="51" rot="R90"/>
+<rectangle x1="1.8125" y1="-0.4875" x2="2.1125" y2="0.4875" layer="51" rot="R90"/>
+<rectangle x1="1.8125" y1="0.0125" x2="2.1125" y2="0.9875" layer="51" rot="R90"/>
+<rectangle x1="1.8125" y1="0.5125" x2="2.1125" y2="1.4875" layer="51" rot="R90"/>
+<rectangle x1="1.85" y1="-1.55" x2="2.25" y2="-0.45" layer="29" rot="R90"/>
+<rectangle x1="1.85" y1="-1.05" x2="2.25" y2="0.05" layer="29" rot="R90"/>
+<rectangle x1="1.85" y1="-0.55" x2="2.25" y2="0.55" layer="29" rot="R90"/>
+<rectangle x1="1.85" y1="-0.05" x2="2.25" y2="1.05" layer="29" rot="R90"/>
+<rectangle x1="1.85" y1="0.45" x2="2.25" y2="1.55" layer="29" rot="R90"/>
+<rectangle x1="1.9375" y1="-1.4375" x2="2.1875" y2="-0.5625" layer="31" rot="R90"/>
+<rectangle x1="1.9375" y1="-0.9375" x2="2.1875" y2="-0.0625" layer="31" rot="R90"/>
+<rectangle x1="1.9375" y1="-0.4375" x2="2.1875" y2="0.4375" layer="31" rot="R90"/>
+<rectangle x1="1.9375" y1="0.0625" x2="2.1875" y2="0.9375" layer="31" rot="R90"/>
+<rectangle x1="1.9375" y1="0.5625" x2="2.1875" y2="1.4375" layer="31" rot="R90"/>
+<text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CH340E">
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.4064" layer="94"/>
+<pin name="!CTS" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="!RTS" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short"/>
+<pin name="TNOW" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="RXI" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="TXO" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="UD+" x="-10.16" y="0" length="short"/>
+<pin name="UD-" x="-10.16" y="-2.54" length="short"/>
+<pin name="V3" x="-10.16" y="5.08" length="short"/>
+<pin name="VCC" x="-10.16" y="7.62" length="short"/>
+<text x="-7.62" y="10.795" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CH340E" prefix="U">
+<gates>
+<gate name="U1" symbol="CH340E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_MSOP10" package="MSOP10">
+<connects>
+<connect gate="U1" pin="!CTS" pad="5"/>
+<connect gate="U1" pin="!RTS" pad="4"/>
+<connect gate="U1" pin="GND" pad="3"/>
+<connect gate="U1" pin="RXI" pad="9"/>
+<connect gate="U1" pin="TNOW" pad="6"/>
+<connect gate="U1" pin="TXO" pad="8"/>
+<connect gate="U1" pin="UD+" pad="1"/>
+<connect gate="U1" pin="UD-" pad="2"/>
+<connect gate="U1" pin="V3" pad="10"/>
+<connect gate="U1" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-14135" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="Testing">
 <packages>
 <package name="ARTEMIS_FP_0.027&quot;_OFFSET">
@@ -10952,57 +11250,57 @@ Diode with low voltage drop</description>
 <wire x1="-30.48" y1="-45.72" x2="-30.48" y2="40.64" width="0.1524" layer="94"/>
 <pin name="VDD*2" x="-33.02" y="38.1" visible="pin" length="short"/>
 <pin name="GND*6" x="-33.02" y="-43.18" visible="pin" length="short"/>
-<pin name="TX0(P/SCL5/SCK5)" x="-33.02" y="20.32" visible="pin" length="short"/>
-<pin name="RX0(P/SDA5/MISO5)" x="-33.02" y="17.78" visible="pin" length="short"/>
+<pin name="~D48(TX0/SCL5/SCK5)" x="-33.02" y="20.32" visible="pin" length="short"/>
+<pin name="~D49(RX0/SDA5/MISO5)" x="-33.02" y="17.78" visible="pin" length="short"/>
 <pin name="!RST" x="-33.02" y="33.02" visible="pin" length="short"/>
-<pin name="BOOT(P/MOSI5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
-<pin name="SWDIO" x="-33.02" y="10.16" visible="pin" length="short"/>
-<pin name="SWDCK" x="-33.02" y="7.62" visible="pin" length="short"/>
-<pin name="~AD33(SWO)" x="-33.02" y="-25.4" visible="pin" length="short"/>
+<pin name="~BOOT(MOSI5/RX1/32KHZ)" x="-33.02" y="27.94" visible="pin" length="short"/>
+<pin name="D21(SWDIO/RX1/SCCRST)" x="-33.02" y="10.16" visible="pin" length="short"/>
+<pin name="D20(SWDCK/TX1)" x="-33.02" y="7.62" visible="pin" length="short"/>
+<pin name="~AD33(SWO/32KHZ)" x="-33.02" y="-25.4" visible="pin" length="short"/>
 <pin name="XI" x="-33.02" y="2.54" visible="pin" length="short"/>
 <pin name="XO" x="-33.02" y="0" visible="pin" length="short"/>
-<pin name="~AD11" x="-33.02" y="-7.62" visible="pin" length="short"/>
-<pin name="~AD12" x="-33.02" y="-10.16" visible="pin" length="short"/>
-<pin name="~AD13(I2SCLK)" x="-33.02" y="-12.7" visible="pin" length="short"/>
-<pin name="AD16(CMPIN0)" x="-33.02" y="-15.24" visible="pin" length="short"/>
+<pin name="~AD11(PDMDATA)" x="-33.02" y="-7.62" visible="pin" length="short"/>
+<pin name="~AD12(PDMCLK/TX1)" x="-33.02" y="-10.16" visible="pin" length="short"/>
+<pin name="~AD13(I2SBCLK/RX1)" x="-33.02" y="-12.7" visible="pin" length="short"/>
+<pin name="AD16(TRIG0/SCCRST)" x="-33.02" y="-15.24" visible="pin" length="short"/>
 <pin name="~AD29(PDMDATA)" x="-33.02" y="-17.78" visible="pin" length="short"/>
-<pin name="~AD31(RTS1/SCCLK)" x="-33.02" y="-20.32" visible="pin" length="short"/>
-<pin name="~AD32(SCIO)" x="-33.02" y="-22.86" visible="pin" length="short"/>
-<pin name="AD34(CMPRF2)" x="-33.02" y="-27.94" visible="pin" length="short"/>
-<pin name="~AD35(I2SDAT)" x="-33.02" y="-30.48" visible="pin" length="short"/>
+<pin name="~AD31(SCCCLK)" x="-33.02" y="-20.32" visible="pin" length="short"/>
+<pin name="~AD32(SCCIO)" x="-33.02" y="-22.86" visible="pin" length="short"/>
+<pin name="AD34(CMPRF2/PDMDATA)" x="-33.02" y="-27.94" visible="pin" length="short"/>
+<pin name="~AD35(TX1/I2SDAT/PDMCLK)" x="-33.02" y="-30.48" visible="pin" length="short"/>
 <pin name="(SLSCK/SLSCL/CLKOUT)D0" x="35.56" y="38.1" visible="pin" length="short" rot="R180"/>
 <pin name="(SLMOSI/SLSDA)D1" x="35.56" y="35.56" visible="pin" length="short" rot="R180"/>
 <pin name="(SLMISO)D2" x="35.56" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="(SLNCE)D3" x="35.56" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="(RX1)~D4" x="35.56" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="(SLNCE/I2SWCLK)D3" x="35.56" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="(RX1/SLINT)~D4" x="35.56" y="27.94" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL0/SCK0)~D5" x="35.56" y="25.4" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA0/MISO0/I2SDAT)~D6" x="35.56" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="(MOSI0/CLKOUT)D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="(MOSI0/CLKOUT)~D7" x="35.56" y="20.32" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL1/SCK1/TX1/SCCLK)D8" x="35.56" y="17.78" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA1/MISO1/RX1/SCCIO)D9" x="35.56" y="15.24" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI1/TX1/PDMCLK)D10" x="35.56" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="(ADCD1P)D14" x="35.56" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="(ADCD1N)D15" x="35.56" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPRF1)D17" x="35.56" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPIN1)~D18" x="35.56" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPRF0)~D19" x="35.56" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="(PDMCLK)~D22" x="35.56" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="(CMPOUT)~D23" x="35.56" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="(TX1/32KHZ)~D24" x="35.56" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="(CTS1/SCRST)~D26" x="35.56" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="(ADCD1P/TX1/PDMCLK)D14" x="35.56" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="(ADCD1N/RX1/PDMDATA)D15" x="35.56" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPRF1/TRIG1/SCCCLK)D17" x="35.56" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPIN1/SCCIO)~D18" x="35.56" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="(CMPRF0/SCCCLK/I2SBCLK)~D19" x="35.56" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="(PDMCLK/SWO)~D22" x="35.56" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="(I2SWCLK/CMPOUT)~D23" x="35.56" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="(TX1/32KHZ/SWO)~D24" x="35.56" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="(SCCRST)~D26" x="35.56" y="-12.7" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA2/MISO2/RX1)~D25" x="35.56" y="-10.16" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL2/SCK2)~D27" x="35.56" y="-15.24" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI2/I2SWCLK)~D28" x="35.56" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="(RX1/PDMDATA)D36" x="35.56" y="-20.32" visible="pin" length="short" rot="R180"/>
-<pin name="(PDMCLK/SCCIO)~D37" x="35.56" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="(RX1/TRIG1/PDMDATA)D36" x="35.56" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="(TX1/PDMCLK/SCCIO)~D37" x="35.56" y="-22.86" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI3/RX1)D38" x="35.56" y="-25.4" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL4/SCK4/TX1)~D39" x="35.56" y="-27.94" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA4/MISO4/RX1)D40" x="35.56" y="-30.48" visible="pin" length="short" rot="R180"/>
-<pin name="(BLEIF_IRA/SWO)D41" x="35.56" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="(BLEIF_IRQ/SWO/I2SWCLK)D41" x="35.56" y="-33.02" visible="pin" length="short" rot="R180"/>
 <pin name="(SCL3/SCK3/TX1)~D42" x="35.56" y="-35.56" visible="pin" length="short" rot="R180"/>
 <pin name="(SDA3/MISO3/RX1)~D43" x="35.56" y="-38.1" visible="pin" length="short" rot="R180"/>
 <pin name="(MOSI4)~D44" x="35.56" y="-40.64" visible="pin" length="short" rot="R180"/>
-<pin name="(SWO)~D45" x="35.56" y="-43.18" visible="pin" length="short" rot="R180"/>
+<pin name="(SWO/I2SDAT/PDMDATA)~D45" x="35.56" y="-43.18" visible="pin" length="short" rot="R180"/>
 <text x="-30.48" y="41.148" size="1.778" layer="95">&gt;Name</text>
 <text x="-30.48" y="-48.26" size="1.778" layer="96">&gt;Value</text>
 </symbol>
@@ -11010,64 +11308,64 @@ Diode with low voltage drop</description>
 <devicesets>
 <deviceset name="ARTEMIS_MODULE" prefix="U">
 <gates>
-<gate name="G$1" symbol="ARTEMIS_MODULE" x="0" y="-1.27"/>
+<gate name="U1" symbol="ARTEMIS_MODULE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SINGLE" package="ARTEMIS_FP_0.027&quot;_OFFSET">
 <connects>
-<connect gate="G$1" pin="!RST" pad="!RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RX0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TX0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@1 VDD@2"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="!RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@1 VDD@2"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TX0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RX0"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11075,59 +11373,59 @@ Diode with low voltage drop</description>
 </device>
 <device name="" package="ARTEMIS_FP_0.027&quot;">
 <connects>
-<connect gate="G$1" pin="!RST" pad="!RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RX0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TX0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@1 VDD@2"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="!RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@2 GND@3 GND@4 GND@5 GND@6"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@1 VDD@2"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TX0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RX0"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11135,360 +11433,62 @@ Diode with low voltage drop</description>
 </device>
 <device name="SMD" package="ARTEMIS_FP">
 <connects>
-<connect gate="G$1" pin="!RST" pad="~RST"/>
-<connect gate="G$1" pin="(ADCD1N)D15" pad="D15"/>
-<connect gate="G$1" pin="(ADCD1P)D14" pad="D14"/>
-<connect gate="G$1" pin="(BLEIF_IRA/SWO)D41" pad="D41"/>
-<connect gate="G$1" pin="(CMPIN1)~D18" pad="~D18"/>
-<connect gate="G$1" pin="(CMPOUT)~D23" pad="~D23"/>
-<connect gate="G$1" pin="(CMPRF0)~D19" pad="~D19"/>
-<connect gate="G$1" pin="(CMPRF1)D17" pad="D17"/>
-<connect gate="G$1" pin="(CTS1/SCRST)~D26" pad="~D26"/>
-<connect gate="G$1" pin="(MOSI0/CLKOUT)D7" pad="D7"/>
-<connect gate="G$1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
-<connect gate="G$1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
-<connect gate="G$1" pin="(MOSI3/RX1)D38" pad="D38"/>
-<connect gate="G$1" pin="(MOSI4)~D44" pad="~D44"/>
-<connect gate="G$1" pin="(PDMCLK)~D22" pad="~D22"/>
-<connect gate="G$1" pin="(PDMCLK/SCCIO)~D37" pad="~D37"/>
-<connect gate="G$1" pin="(RX1)~D4" pad="~D4"/>
-<connect gate="G$1" pin="(RX1/PDMDATA)D36" pad="D36"/>
-<connect gate="G$1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
-<connect gate="G$1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
-<connect gate="G$1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
-<connect gate="G$1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
-<connect gate="G$1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
-<connect gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
-<connect gate="G$1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
-<connect gate="G$1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
-<connect gate="G$1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
-<connect gate="G$1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
-<connect gate="G$1" pin="(SLMISO)D2" pad="D2"/>
-<connect gate="G$1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
-<connect gate="G$1" pin="(SLNCE)D3" pad="D3"/>
-<connect gate="G$1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
-<connect gate="G$1" pin="(SWO)~D45" pad="~D45"/>
-<connect gate="G$1" pin="(TX1/32KHZ)~D24" pad="~D24"/>
-<connect gate="G$1" pin="AD16(CMPIN0)" pad="AD16"/>
-<connect gate="G$1" pin="AD34(CMPRF2)" pad="AD34"/>
-<connect gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)" pad="BOOT"/>
-<connect gate="G$1" pin="GND*6" pad="GND@1 GND@22 GND@38 GND@39 GND@47 GND@59"/>
-<connect gate="G$1" pin="RX0(P/SDA5/MISO5)" pad="RXI-0"/>
-<connect gate="G$1" pin="SWDCK" pad="SWDCK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
-<connect gate="G$1" pin="TX0(P/SCL5/SCK5)" pad="TXO-0"/>
-<connect gate="G$1" pin="VDD*2" pad="VDD@36 VDD@37"/>
-<connect gate="G$1" pin="XI" pad="XI"/>
-<connect gate="G$1" pin="XO" pad="XO"/>
-<connect gate="G$1" pin="~AD11" pad="~AD11"/>
-<connect gate="G$1" pin="~AD12" pad="~AD12"/>
-<connect gate="G$1" pin="~AD13(I2SCLK)" pad="~AD13"/>
-<connect gate="G$1" pin="~AD29(PDMDATA)" pad="~AD29"/>
-<connect gate="G$1" pin="~AD31(RTS1/SCCLK)" pad="~AD31"/>
-<connect gate="G$1" pin="~AD32(SCIO)" pad="~AD32"/>
-<connect gate="G$1" pin="~AD33(SWO)" pad="~AD33/SWO"/>
-<connect gate="G$1" pin="~AD35(I2SDAT)" pad="~AD35"/>
+<connect gate="U1" pin="!RST" pad="~RST"/>
+<connect gate="U1" pin="(ADCD1N/RX1/PDMDATA)D15" pad="D15"/>
+<connect gate="U1" pin="(ADCD1P/TX1/PDMCLK)D14" pad="D14"/>
+<connect gate="U1" pin="(BLEIF_IRQ/SWO/I2SWCLK)D41" pad="D41"/>
+<connect gate="U1" pin="(CMPIN1/SCCIO)~D18" pad="~D18"/>
+<connect gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19" pad="~D19"/>
+<connect gate="U1" pin="(CMPRF1/TRIG1/SCCCLK)D17" pad="D17"/>
+<connect gate="U1" pin="(I2SWCLK/CMPOUT)~D23" pad="~D23"/>
+<connect gate="U1" pin="(MOSI0/CLKOUT)~D7" pad="D7"/>
+<connect gate="U1" pin="(MOSI1/TX1/PDMCLK)D10" pad="D10"/>
+<connect gate="U1" pin="(MOSI2/I2SWCLK)~D28" pad="~D28"/>
+<connect gate="U1" pin="(MOSI3/RX1)D38" pad="D38"/>
+<connect gate="U1" pin="(MOSI4)~D44" pad="~D44"/>
+<connect gate="U1" pin="(PDMCLK/SWO)~D22" pad="~D22"/>
+<connect gate="U1" pin="(RX1/SLINT)~D4" pad="~D4"/>
+<connect gate="U1" pin="(RX1/TRIG1/PDMDATA)D36" pad="D36"/>
+<connect gate="U1" pin="(SCCRST)~D26" pad="~D26"/>
+<connect gate="U1" pin="(SCL0/SCK0)~D5" pad="~D5"/>
+<connect gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8" pad="D8"/>
+<connect gate="U1" pin="(SCL2/SCK2)~D27" pad="~D27"/>
+<connect gate="U1" pin="(SCL3/SCK3/TX1)~D42" pad="~D42"/>
+<connect gate="U1" pin="(SCL4/SCK4/TX1)~D39" pad="~D39"/>
+<connect gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6" pad="~D6"/>
+<connect gate="U1" pin="(SDA1/MISO1/RX1/SCCIO)D9" pad="D9"/>
+<connect gate="U1" pin="(SDA2/MISO2/RX1)~D25" pad="~D25"/>
+<connect gate="U1" pin="(SDA3/MISO3/RX1)~D43" pad="~D43"/>
+<connect gate="U1" pin="(SDA4/MISO4/RX1)D40" pad="D40"/>
+<connect gate="U1" pin="(SLMISO)D2" pad="D2"/>
+<connect gate="U1" pin="(SLMOSI/SLSDA)D1" pad="D1"/>
+<connect gate="U1" pin="(SLNCE/I2SWCLK)D3" pad="D3"/>
+<connect gate="U1" pin="(SLSCK/SLSCL/CLKOUT)D0" pad="D0"/>
+<connect gate="U1" pin="(SWO/I2SDAT/PDMDATA)~D45" pad="~D45"/>
+<connect gate="U1" pin="(TX1/32KHZ/SWO)~D24" pad="~D24"/>
+<connect gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37" pad="~D37"/>
+<connect gate="U1" pin="AD16(TRIG0/SCCRST)" pad="AD16"/>
+<connect gate="U1" pin="AD34(CMPRF2/PDMDATA)" pad="AD34"/>
+<connect gate="U1" pin="D20(SWDCK/TX1)" pad="SWDCK"/>
+<connect gate="U1" pin="D21(SWDIO/RX1/SCCRST)" pad="SWDIO"/>
+<connect gate="U1" pin="GND*6" pad="GND@1 GND@22 GND@38 GND@39 GND@47 GND@59"/>
+<connect gate="U1" pin="VDD*2" pad="VDD@36 VDD@37"/>
+<connect gate="U1" pin="XI" pad="XI"/>
+<connect gate="U1" pin="XO" pad="XO"/>
+<connect gate="U1" pin="~AD11(PDMDATA)" pad="~AD11"/>
+<connect gate="U1" pin="~AD12(PDMCLK/TX1)" pad="~AD12"/>
+<connect gate="U1" pin="~AD13(I2SBCLK/RX1)" pad="~AD13"/>
+<connect gate="U1" pin="~AD29(PDMDATA)" pad="~AD29"/>
+<connect gate="U1" pin="~AD31(SCCCLK)" pad="~AD31"/>
+<connect gate="U1" pin="~AD32(SCCIO)" pad="~AD32"/>
+<connect gate="U1" pin="~AD33(SWO/32KHZ)" pad="~AD33/SWO"/>
+<connect gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)" pad="~AD35"/>
+<connect gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)" pad="BOOT"/>
+<connect gate="U1" pin="~D48(TX0/SCL5/SCK5)" pad="TXO-0"/>
+<connect gate="U1" pin="~D49(RX0/SDA5/MISO5)" pad="RXI-0"/>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
-This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SPH0641LM4H-1_MICROPHONE">
-<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
-&lt;a href = "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0641LM4H-1.pdf"&gt;Datasheet&lt;/a&gt;
-
-&lt;h4&gt;Specifications&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 5
-&lt;li&gt; Devices: SPH061LM4H-1 Microphone
-&lt;/ul&gt;</description>
-<wire x1="1.524" y1="1.424" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.932" x2="1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-1.524" x2="1.524" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-2.032" x2="1.016" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-2.032" x2="-1.016" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="1.932" x2="-1.524" y2="1.932" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="1.932" x2="-1.524" y2="1.424" width="0.1524" layer="21"/>
-<smd name="4" x="0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
-<hole x="0" y="-1" drill="0.8"/>
-<smd name="5" x="0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
-<smd name="1" x="-0.9" y="1.3" dx="0.725" dy="0.522" layer="1"/>
-<smd name="2" x="-0.9" y="0.3" dx="0.725" dy="0.522" layer="1"/>
-<circle x="0" y="-1" radius="0.6625" width="0.6" layer="29"/>
-<smd name="3" x="0" y="-1.65" dx="0.5" dy="0.2" layer="1"/>
-<text x="-1.6" y="2.2" size="0.6" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.6" y="-2.9" size="0.6" layer="27" font="vector">&gt;VALUE</text>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.44" y="-1.652" curve="70"/>
-<vertex x="0.44" y="-1.652"/>
-<vertex x="0.3" y="-1.445" curve="-70"/>
-<vertex x="-0.3" y="-1.445"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="0.652" y="-1.44" curve="70"/>
-<vertex x="0.652" y="-0.56"/>
-<vertex x="0.445" y="-0.7" curve="-70"/>
-<vertex x="0.445" y="-1.3"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="-0.652" y="-0.56" curve="70"/>
-<vertex x="-0.652" y="-1.44"/>
-<vertex x="-0.445" y="-1.3" curve="-70"/>
-<vertex x="-0.445" y="-0.7"/>
-</polygon>
-<polygon width="0.05" layer="31">
-<vertex x="0.44" y="-0.348" curve="70"/>
-<vertex x="-0.44" y="-0.348"/>
-<vertex x="-0.3" y="-0.555" curve="-70"/>
-<vertex x="0.3" y="-0.555"/>
-</polygon>
-<smd name="6" x="-0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R90"/>
-<smd name="7" x="0.65" y="-1" dx="0.5" dy="0.2" layer="1" rot="R270"/>
-<smd name="8" x="0" y="-0.35" dx="0.5" dy="0.2" layer="1"/>
-<polygon width="0.01" layer="1">
-<vertex x="-0.51" y="-1" curve="-90"/>
-<vertex x="0" y="-0.49"/>
-<vertex x="0" y="-0.19" curve="90"/>
-<vertex x="-0.81" y="-1"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0" y="-1.51" curve="-90"/>
-<vertex x="-0.51" y="-1"/>
-<vertex x="-0.81" y="-1" curve="90"/>
-<vertex x="0" y="-1.81"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0.51" y="-1" curve="-90"/>
-<vertex x="0" y="-1.51"/>
-<vertex x="0" y="-1.81" curve="90"/>
-<vertex x="0.81" y="-1"/>
-</polygon>
-<polygon width="0.01" layer="1">
-<vertex x="0" y="-0.49" curve="-90"/>
-<vertex x="0.51" y="-1"/>
-<vertex x="0.81" y="-1" curve="90"/>
-<vertex x="0" y="-0.19"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="SPH0641LM4H-1_MICROPHONE">
-<description>&lt;h3&gt; SPH0641LM4H-1 Microphone&lt;/h3&gt;
-
-
-A miniature, high-performance, low power,
-bottom port silicon digital microphone with a single bit PDM output.</description>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
-<pin name="VDD" x="-5.08" y="7.62" visible="off" length="short" direction="pwr" rot="R270"/>
-<pin name="GND" x="-5.08" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="SEL" x="12.7" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="CLK" x="12.7" y="2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="DATA" x="12.7" y="0" visible="pin" length="short" direction="out" rot="R180"/>
-<text x="1.524" y="6.604" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="2.286" y="-6.604" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<wire x1="-2.286" y1="-1.27" x2="0.508" y2="-1.27" width="0.3048" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="0.508" y2="1.27" width="0.3048" layer="94"/>
-<circle x="-5.08" y="0" radius="3.048" width="0.3048" layer="94"/>
-<wire x1="-8.128" y1="-3.048" x2="-8.128" y2="3.048" width="0.3048" layer="94"/>
-<text x="-7.112" y="-0.762" size="1.778" layer="94" ratio="15">MIC</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPH0641LM4H-1_MICROPHONE" prefix="E">
-<description>&lt;h3&gt;SPH0641LM4H-1 Microphone&lt;/h3&gt;
-
-A miniature, high-performance, low power,
-bottom port silicon digital microphone with a single bit PDM output.</description>
-<gates>
-<gate name="E1" symbol="SPH0641LM4H-1_MICROPHONE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SPH0641LM4H-1_MICROPHONE">
-<connects>
-<connect gate="E1" pin="CLK" pad="4"/>
-<connect gate="E1" pin="DATA" pad="1"/>
-<connect gate="E1" pin="GND" pad="3 6 7 8"/>
-<connect gate="E1" pin="SEL" pad="2"/>
-<connect gate="E1" pin="VDD" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14361" constant="no"/>
-<attribute name="VALUE" value="SPH0641LM4H-1" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-IC-Comms">
-<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
-This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="MSOP10">
-<wire x1="-1.4" y1="1.425" x2="-1.4" y2="-1.425" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="-1.425" x2="1.4" y2="-1.425" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-1.425" x2="1.4" y2="1.425" width="0.127" layer="51"/>
-<wire x1="1.4" y1="1.425" x2="-1.4" y2="1.425" width="0.2032" layer="21"/>
-<circle x="-1.75" y="1.55" radius="0.2" width="0" layer="21"/>
-<smd name="1" x="-2.05" y="1" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="2" x="-2.05" y="0.5" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="3" x="-2.05" y="0" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="4" x="-2.05" y="-0.5" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="5" x="-2.05" y="-1" dx="0.3" dy="1" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="6" x="2.05" y="-1" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="7" x="2.05" y="-0.5" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="8" x="2.05" y="0" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="9" x="2.05" y="0.5" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="10" x="2.05" y="1" dx="0.3" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<rectangle x1="-2.1125" y1="0.5125" x2="-1.8125" y2="1.4875" layer="51" rot="R270"/>
-<rectangle x1="-2.1125" y1="0.0125" x2="-1.8125" y2="0.9875" layer="51" rot="R270"/>
-<rectangle x1="-2.1125" y1="-0.4875" x2="-1.8125" y2="0.4875" layer="51" rot="R270"/>
-<rectangle x1="-2.1125" y1="-0.9875" x2="-1.8125" y2="-0.0125" layer="51" rot="R270"/>
-<rectangle x1="-2.1125" y1="-1.4875" x2="-1.8125" y2="-0.5125" layer="51" rot="R270"/>
-<rectangle x1="-2.25" y1="0.45" x2="-1.85" y2="1.55" layer="29" rot="R270"/>
-<rectangle x1="-2.25" y1="-0.05" x2="-1.85" y2="1.05" layer="29" rot="R270"/>
-<rectangle x1="-2.25" y1="-0.55" x2="-1.85" y2="0.55" layer="29" rot="R270"/>
-<rectangle x1="-2.25" y1="-1.05" x2="-1.85" y2="0.05" layer="29" rot="R270"/>
-<rectangle x1="-2.25" y1="-1.55" x2="-1.85" y2="-0.45" layer="29" rot="R270"/>
-<rectangle x1="-2.1875" y1="0.5625" x2="-1.9375" y2="1.4375" layer="31" rot="R270"/>
-<rectangle x1="-2.1875" y1="0.0625" x2="-1.9375" y2="0.9375" layer="31" rot="R270"/>
-<rectangle x1="-2.1875" y1="-0.4375" x2="-1.9375" y2="0.4375" layer="31" rot="R270"/>
-<rectangle x1="-2.1875" y1="-0.9375" x2="-1.9375" y2="-0.0625" layer="31" rot="R270"/>
-<rectangle x1="-2.1875" y1="-1.4375" x2="-1.9375" y2="-0.5625" layer="31" rot="R270"/>
-<rectangle x1="1.8125" y1="-1.4875" x2="2.1125" y2="-0.5125" layer="51" rot="R90"/>
-<rectangle x1="1.8125" y1="-0.9875" x2="2.1125" y2="-0.0125" layer="51" rot="R90"/>
-<rectangle x1="1.8125" y1="-0.4875" x2="2.1125" y2="0.4875" layer="51" rot="R90"/>
-<rectangle x1="1.8125" y1="0.0125" x2="2.1125" y2="0.9875" layer="51" rot="R90"/>
-<rectangle x1="1.8125" y1="0.5125" x2="2.1125" y2="1.4875" layer="51" rot="R90"/>
-<rectangle x1="1.85" y1="-1.55" x2="2.25" y2="-0.45" layer="29" rot="R90"/>
-<rectangle x1="1.85" y1="-1.05" x2="2.25" y2="0.05" layer="29" rot="R90"/>
-<rectangle x1="1.85" y1="-0.55" x2="2.25" y2="0.55" layer="29" rot="R90"/>
-<rectangle x1="1.85" y1="-0.05" x2="2.25" y2="1.05" layer="29" rot="R90"/>
-<rectangle x1="1.85" y1="0.45" x2="2.25" y2="1.55" layer="29" rot="R90"/>
-<rectangle x1="1.9375" y1="-1.4375" x2="2.1875" y2="-0.5625" layer="31" rot="R90"/>
-<rectangle x1="1.9375" y1="-0.9375" x2="2.1875" y2="-0.0625" layer="31" rot="R90"/>
-<rectangle x1="1.9375" y1="-0.4375" x2="2.1875" y2="0.4375" layer="31" rot="R90"/>
-<rectangle x1="1.9375" y1="0.0625" x2="2.1875" y2="0.9375" layer="31" rot="R90"/>
-<rectangle x1="1.9375" y1="0.5625" x2="2.1875" y2="1.4375" layer="31" rot="R90"/>
-<text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CH340E">
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.4064" layer="94"/>
-<pin name="!CTS" x="10.16" y="-2.54" length="short" rot="R180"/>
-<pin name="!RTS" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="GND" x="-10.16" y="-7.62" length="short"/>
-<pin name="TNOW" x="10.16" y="-7.62" length="short" rot="R180"/>
-<pin name="RXI" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="TXO" x="10.16" y="7.62" length="short" rot="R180"/>
-<pin name="UD+" x="-10.16" y="0" length="short"/>
-<pin name="UD-" x="-10.16" y="-2.54" length="short"/>
-<pin name="V3" x="-10.16" y="5.08" length="short"/>
-<pin name="VCC" x="-10.16" y="7.62" length="short"/>
-<text x="-7.62" y="10.795" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CH340E" prefix="U">
-<gates>
-<gate name="U1" symbol="CH340E" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_MSOP10" package="MSOP10">
-<connects>
-<connect gate="U1" pin="!CTS" pad="5"/>
-<connect gate="U1" pin="!RTS" pad="4"/>
-<connect gate="U1" pin="GND" pad="3"/>
-<connect gate="U1" pin="RXI" pad="9"/>
-<connect gate="U1" pin="TNOW" pad="6"/>
-<connect gate="U1" pin="TXO" pad="8"/>
-<connect gate="U1" pin="UD+" pad="1"/>
-<connect gate="U1" pin="UD-" pad="2"/>
-<connect gate="U1" pin="V3" pad="10"/>
-<connect gate="U1" pin="VCC" pad="7"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-14135" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -11577,7 +11577,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C12" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U4" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
@@ -11645,6 +11644,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="U1" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -11852,10 +11852,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND35" gate="1" x="20.32" y="66.04" smashed="yes">
 <attribute name="VALUE" x="20.32" y="65.786" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U4" gate="G$1" x="86.36" y="76.2" smashed="yes">
-<attribute name="NAME" x="55.88" y="117.348" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
-</instance>
 <instance part="C19" gate="G$1" x="30.48" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.004" y="104.521" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="32.004" y="99.441" size="1.778" layer="96" font="vector"/>
@@ -11911,6 +11907,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD4" gate="G$1" x="243.84" y="25.4" smashed="yes"/>
 <instance part="LOGO1" gate="G$1" x="75.692" y="10.16" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="75.692" y="10.16" smashed="yes"/>
+<instance part="U1" gate="U1" x="86.36" y="76.2" smashed="yes">
+<attribute name="NAME" x="55.88" y="117.348" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12095,7 +12095,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="50.8" y1="33.02" x2="50.8" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="U4" gate="G$1" pin="GND*6"/>
+<pinref part="U1" gate="U1" pin="GND*6"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -12168,8 +12168,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="114.3" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VDD*2"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<pinref part="U1" gate="U1" pin="VDD*2"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
@@ -12215,7 +12215,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
 <label x="50.8" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="SWDIO"/>
+<pinref part="U1" gate="U1" pin="D21(SWDIO/RX1/SCCRST)"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="119.38" x2="208.28" y2="119.38" width="0.1524" layer="91"/>
@@ -12237,7 +12237,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
 <label x="50.8" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="!RST"/>
+<pinref part="U1" gate="U1" pin="!RST"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
@@ -12311,21 +12311,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="50.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="RX0(P/SDA5/MISO5)"/>
+<pinref part="U1" gate="U1" pin="~D49(RX0/SDA5/MISO5)"/>
 </segment>
 </net>
 <net name="TXO-0" class="0">
 <segment>
 <wire x1="53.34" y1="96.52" x2="50.8" y2="96.52" width="0.1524" layer="91"/>
 <label x="50.8" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="TX0(P/SCL5/SCK5)"/>
+<pinref part="U1" gate="U1" pin="~D48(TX0/SCL5/SCK5)"/>
 </segment>
 </net>
-<net name="D7/MOSI" class="0">
+<net name="~D7/MOSI" class="0">
 <segment>
 <wire x1="121.92" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="124.46" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(MOSI0/CLKOUT)D7"/>
+<pinref part="U1" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
@@ -12337,7 +12337,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="121.92" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <label x="124.46" y="99.06" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+<pinref part="U1" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
@@ -12349,7 +12349,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="121.92" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
 <label x="124.46" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(SCL0/SCK0)~D5"/>
+<pinref part="U1" gate="U1" pin="(SCL0/SCK0)~D5"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
@@ -12361,7 +12361,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="50.8" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="~AD33(SWO)"/>
+<pinref part="U1" gate="U1" pin="~AD33(SWO/32KHZ)"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
@@ -12378,7 +12378,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="53.34" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <label x="50.8" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="SWDCK"/>
+<pinref part="U1" gate="U1" pin="D20(SWDCK/TX1)"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
@@ -12395,21 +12395,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
 <label x="124.46" y="55.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="(RX1/PDMDATA)D36"/>
+<pinref part="U1" gate="U1" pin="(RX1/TRIG1/PDMDATA)D36"/>
 </segment>
 </net>
 <net name="PDMCLK" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(PDMCLK/SCCIO)~D37"/>
 <wire x1="121.92" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 <label x="124.46" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(TX1/PDMCLK/SCCIO)~D37"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
 <segment>
 <wire x1="53.34" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
 <label x="50.8" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U4" gate="G$1" pin="BOOT(P/MOSI5/RX1/32KHZ)"/>
+<pinref part="U1" gate="U1" pin="~BOOT(MOSI5/RX1/32KHZ)"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12422,7 +12422,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="33.02" y1="71.12" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <junction x="33.02" y="71.12"/>
-<pinref part="U4" gate="G$1" pin="XO"/>
+<pinref part="U1" gate="U1" pin="XO"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -12432,14 +12432,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="78.74" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="78.74"/>
-<pinref part="U4" gate="G$1" pin="XI"/>
+<pinref part="U1" gate="U1" pin="XI"/>
 </segment>
 </net>
 <net name="~AD29" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD29(PDMDATA)"/>
 <wire x1="53.34" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <label x="50.8" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD29(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
@@ -12449,9 +12449,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~AD11" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD11"/>
 <wire x1="53.34" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <label x="50.8" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD11(PDMDATA)"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="73.66" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
@@ -12461,9 +12461,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~AD35" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD35(I2SDAT)"/>
 <wire x1="53.34" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <label x="50.8" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD35(TX1/I2SDAT/PDMCLK)"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
@@ -12473,23 +12473,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~D4" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(RX1)~D4"/>
 <wire x1="121.92" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
 <label x="124.46" y="104.14" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(RX1/SLINT)~D4"/>
 </segment>
 </net>
 <net name="~D22" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(PDMCLK)~D22"/>
 <wire x1="121.92" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <label x="124.46" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(PDMCLK/SWO)~D22"/>
 </segment>
 </net>
 <net name="~AD32" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD32(SCIO)"/>
 <wire x1="53.34" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
 <label x="50.8" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD32(SCCIO)"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
@@ -12499,9 +12499,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~AD12" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD12"/>
 <wire x1="53.34" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
 <label x="50.8" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
@@ -12511,9 +12511,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~AD13" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD13(I2SCLK)"/>
 <wire x1="53.34" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <label x="50.8" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
@@ -12523,9 +12523,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~D42" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL3/SCK3/TX1)~D42"/>
 <wire x1="121.92" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <label x="124.46" y="40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL3/SCK3/TX1)~D42"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
@@ -12535,9 +12535,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~D43" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SDA3/MISO3/RX1)~D43"/>
 <wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <label x="124.46" y="38.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA3/MISO3/RX1)~D43"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
@@ -12547,9 +12547,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="D38" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(MOSI3/RX1)D38"/>
 <wire x1="121.92" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <label x="124.46" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(MOSI3/RX1)D38"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
@@ -12559,16 +12559,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="~D19/LED" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(CMPRF0)~D19"/>
 <wire x1="121.92" y1="76.2" x2="124.46" y2="76.2" width="0.1524" layer="91"/>
 <label x="124.46" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19"/>
 </segment>
 </net>
 <net name="~D39/TX1" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL4/SCK4/TX1)~D39"/>
 <wire x1="121.92" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="124.46" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
@@ -12578,9 +12578,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="D40/RX1" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SDA4/MISO4/RX1)D40"/>
 <wire x1="121.92" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <label x="124.46" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
@@ -12595,9 +12595,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="~AD31(RTS1/SCCLK)"/>
 <wire x1="53.34" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <label x="50.8" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="U1" pin="~AD31(SCCCLK)"/>
 </segment>
 </net>
 <net name="~D18" class="0">
@@ -12607,23 +12607,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="5"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="(CMPIN1)~D18"/>
 <wire x1="121.92" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <label x="124.46" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(CMPIN1/SCCIO)~D18"/>
 </segment>
 </net>
 <net name="~D25/SDA2" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SDA2/MISO2/RX1)~D25"/>
 <wire x1="121.92" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <label x="124.46" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
 </segment>
 </net>
 <net name="~D27/SCL2" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="(SCL2/SCK2)~D27"/>
 <wire x1="121.92" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
 <label x="124.46" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="(SCL2/SCK2)~D27"/>
 </segment>
 </net>
 </nets>
