@@ -12357,7 +12357,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="~AD3/SWO" class="0">
+<net name="~AD33/SWO" class="0">
 <segment>
 <wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="50.8" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
