@@ -8620,140 +8620,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SWITCH_SPDT_PTH_11.6X4.0MM">
-<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="SWITCH_DPDT_SMD_AYZ0202">
-<description>&lt;h3&gt;ITT Industries AYZ0202 DPDT Switch - SMD&lt;/h3&gt;
-&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
-<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<hole x="1.5" y="0" drill="0.85"/>
-<hole x="-1.5" y="0" drill="0.85"/>
-<text x="-3.81" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
-<description>&lt;h3&gt;SPDT PTH Slide Switch - Locking Footprint&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the LOCK version of this package. This package has offset PTH pins, which help to hold the part in place while soldering.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796"/>
-<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
-<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
-<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
-<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
-<description>&lt;h3&gt;SPDT PTH Slide Switch - KIT Footprint&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" stop="no"/>
-<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796" stop="no"/>
-<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
-<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
-<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0178" y="1.8414" curve="-90.039946"/>
-<vertex x="-0.8787" y="2.6975" curve="-90"/>
-<vertex x="-0.0026" y="3.5916" curve="-90.006409"/>
-<vertex x="0.8738" y="2.6975" curve="-90.03214"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0051" y="-3.5967" curve="-90.006558"/>
-<vertex x="-0.8788" y="-2.7431" curve="-90.037923"/>
-<vertex x="0.0128" y="-1.8363" curve="-90.006318"/>
-<vertex x="0.8814" y="-2.7432" curve="-90.038792"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-0.0102" y="-0.8738" curve="-90.019852"/>
-<vertex x="-0.8762" y="-0.0203" curve="-90.019119"/>
-<vertex x="0.0153" y="0.8789" curve="-90"/>
-<vertex x="0.8739" y="-0.0077" curve="-90.038897"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0" y="2.2758" curve="-90.012891"/>
-<vertex x="-0.4445" y="2.7" curve="-90"/>
-<vertex x="0" y="3.1673" curve="-90"/>
-<vertex x="0.4419" y="2.7102" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0.0026" y="-3.1648" curve="-90.012891"/>
-<vertex x="-0.4419" y="-2.7406" curve="-90"/>
-<vertex x="0.0026" y="-2.2733" curve="-90"/>
-<vertex x="0.4445" y="-2.7304" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="0.0102" y="-0.4471" curve="-90.012891"/>
-<vertex x="-0.4343" y="-0.0229" curve="-90"/>
-<vertex x="0.0102" y="0.4444" curve="-90"/>
-<vertex x="0.4521" y="-0.0127" curve="-90.012967"/>
-</polygon>
-<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
-</package>
-<package name="SWITCH_SPST_SMD_A">
-<description>&lt;h3&gt;SPDT Slide Switch - SMD&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SLIDE.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
-<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-3.477" y1="0.427" x2="-3.477" y2="-0.427" width="0.2032" layer="21"/>
-<wire x1="3.477" y1="0.427" x2="3.477" y2="-0.427" width="0.2032" layer="21"/>
-<wire x1="2.7" y1="1.427" x2="-2.7" y2="1.427" width="0.2032" layer="21"/>
-<wire x1="1.627" y1="-1.427" x2="-0.127" y2="-1.427" width="0.2032" layer="21"/>
-<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
-<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
-<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
-<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
-<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
-<hole x="-1.5" y="0" drill="0.9"/>
-<hole x="1.5" y="0" drill="0.9"/>
-<text x="0.762" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
-<text x="0" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
-</package>
 <package name="TACTILE_SWITCH_PTH_6.0MM">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
@@ -9185,21 +9051,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 <symbols>
-<symbol name="TOGGLE">
-<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;</description>
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<text x="1.27" y="3.048" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
-<text x="1.016" y="-3.302" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
-<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
 <symbol name="SWITCH-MOMENTARY-2">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;</description>
@@ -9214,104 +9065,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SWITCH-SPDT" prefix="S" uservalue="yes">
-<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
-&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
-&lt;h4&gt;Variant Overview&lt;/h4&gt;
-&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;
-&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;
-&lt;/ul&gt;
-&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/102"&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;
-&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/10547"&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10860"&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;
-&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13231"&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="1" symbol="TOGGLE" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-11.6X4.0MM" package="SWITCH_SPDT_PTH_11.6X4.0MM">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08261"/>
-<attribute name="SF_SKU" value="COM-00102"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-AYZ0202" package="SWITCH_DPDT_SMD_AYZ0202">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08179" constant="no"/>
-<attribute name="SF_ID" value="COM-00597" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-11.6X4.0MM-LOCK" package="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08261"/>
-<attribute name="SF_SKU" value="COM-00102 "/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-11.6X4.0MM-KIT" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-08261"/>
-<attribute name="SF_SKU" value="COM-00102"/>
-</technology>
-</technologies>
-</device>
-<device name="-SMD-RIGHT-ANGLE" package="SWITCH_SPST_SMD_A">
-<connects>
-<connect gate="1" pin="O" pad="1"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="SWCH-10651"/>
-<attribute name="SF_SKU" value="COM-10860"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MOMENTARY-SWITCH-SPST" prefix="S">
 <description>&lt;h3&gt;Momentary Switch (Pushbutton) - SPST&lt;/h3&gt;
 &lt;p&gt;Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p&gt;
@@ -11562,8 +11315,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
-<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-RIGHT-ANGLE"/>
-<part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J9" library="SparkFun-Connectors" deviceset="CONN_07" device="NO_SILK"/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -11645,15 +11396,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U1" library="Testing" deviceset="ARTEMIS_MODULE" device="SMD"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <wire x1="0" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="97" style="longdash"/>
-<wire x1="147.32" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="97" style="longdash"/>
-<wire x1="175.26" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="97" style="longdash"/>
-<wire x1="147.32" y1="35.56" x2="147.32" y2="93.98" width="0.1524" layer="97" style="longdash"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="104.14" width="0.1524" layer="97" style="longdash"/>
+<wire x1="147.32" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="97" style="longdash"/>
+<wire x1="167.64" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="97" style="longdash"/>
+<wire x1="147.32" y1="35.56" x2="147.32" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="137.16" width="0.1524" layer="97" style="longdash"/>
 <text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="167.64" y="10.16" size="2.54" layer="94">N. Seidle</text>
@@ -11662,12 +11415,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="198.12" y="99.06" size="2.54" layer="94" ratio="15" align="center">Headers</text>
 <text x="81.28" y="132.08" size="2.54" layer="94" ratio="15" align="center">Artemis (Apollo3)</text>
 <text x="66.04" y="180.34" size="2.54" layer="94" ratio="15" align="center">USB/LiPo Charger</text>
-<text x="152.4" y="180.34" size="2.54" layer="94" ratio="15" align="center">Power Source Select</text>
-<wire x1="127" y1="137.16" x2="127" y2="185.42" width="0.1524" layer="97" style="longdash"/>
-<wire x1="175.26" y1="137.16" x2="175.26" y2="185.42" width="0.1524" layer="97" style="longdash"/>
+<text x="144.78" y="180.34" size="2.54" layer="94" ratio="15" align="center">Power Source Select</text>
+<wire x1="121.92" y1="137.16" x2="121.92" y2="185.42" width="0.1524" layer="97" style="longdash"/>
+<wire x1="167.64" y1="137.16" x2="167.64" y2="185.42" width="0.1524" layer="97" style="longdash"/>
 <text x="213.36" y="180.34" size="2.54" layer="94" ratio="15" align="center">3.3V Regulator</text>
 <text x="76.2" y="119.38" size="1.778" layer="97">Artemis VCC Range:
 1.76-3.6V</text>
+<text x="261.62" y="132.08" size="1.27" layer="91">Change internal layer iso and width</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -11739,19 +11493,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="35.052" y="159.131" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.052" y="164.465" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="154.94" y="152.4" smashed="yes">
-<attribute name="NAME" x="152.4" y="154.432" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="154.94" y="150.622" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="D3" gate="G$1" x="147.32" y="152.4" smashed="yes">
+<attribute name="NAME" x="144.78" y="154.432" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="147.32" y="150.622" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="D4" gate="G$1" x="154.94" y="162.56" smashed="yes">
-<attribute name="NAME" x="152.4" y="164.592" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="154.94" y="160.782" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="D4" gate="G$1" x="147.32" y="162.56" smashed="yes">
+<attribute name="NAME" x="144.78" y="164.592" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="147.32" y="160.782" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="149.86" y="165.1" smashed="yes">
-<attribute name="VALUE" x="149.86" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="142.24" y="165.1" smashed="yes">
+<attribute name="VALUE" x="142.24" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="139.7" y="165.1" smashed="yes">
-<attribute name="VALUE" x="139.7" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY16" gate="G$1" x="132.08" y="165.1" smashed="yes">
+<attribute name="VALUE" x="132.08" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C5" gate="G$1" x="20.32" y="160.02" smashed="yes" rot="MR0">
 <attribute name="NAME" x="18.796" y="162.941" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -11771,9 +11525,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="208.28" y="170.434" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="208.28" y="154.686" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="C8" gate="G$1" x="185.42" y="157.48" smashed="yes" rot="MR0">
-<attribute name="NAME" x="183.896" y="160.401" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="183.896" y="155.321" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C8" gate="G$1" x="177.8" y="157.48" smashed="yes" rot="MR0">
+<attribute name="NAME" x="176.276" y="160.401" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="176.276" y="155.321" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="C9" gate="G$1" x="228.6" y="157.48" smashed="yes">
 <attribute name="NAME" x="230.124" y="160.401" size="1.778" layer="95" font="vector"/>
@@ -11782,8 +11536,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND16" gate="1" x="203.2" y="149.86" smashed="yes">
 <attribute name="VALUE" x="203.2" y="149.606" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND17" gate="1" x="185.42" y="149.86" smashed="yes">
-<attribute name="VALUE" x="185.42" y="149.606" size="1.778" layer="96" align="top-center"/>
+<instance part="GND17" gate="1" x="177.8" y="149.86" smashed="yes">
+<attribute name="VALUE" x="177.8" y="149.606" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND18" gate="1" x="228.6" y="149.86" smashed="yes">
 <attribute name="VALUE" x="228.6" y="149.606" size="1.778" layer="96" align="top-center"/>
@@ -11797,18 +11551,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY18" gate="G$1" x="203.2" y="170.18" smashed="yes">
 <attribute name="VALUE" x="203.2" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY19" gate="G$1" x="165.1" y="165.1" smashed="yes">
-<attribute name="VALUE" x="165.1" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY19" gate="G$1" x="157.48" y="165.1" smashed="yes">
+<attribute name="VALUE" x="157.48" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="213.36" y="88.9" smashed="yes">
 <attribute name="VALUE" x="213.36" y="91.694" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="S2" gate="1" x="200.66" y="162.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="199.39" y="159.512" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="199.644" y="165.862" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
-</instance>
-<instance part="GND24" gate="1" x="193.04" y="149.86" smashed="yes">
-<attribute name="VALUE" x="193.04" y="149.606" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J9" gate="J1" x="162.56" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="167.64" y="53.594" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -11911,6 +11658,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="55.88" y="117.348" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.88" y="27.94" size="1.778" layer="96"/>
 </instance>
+<instance part="J4" gate="G$1" x="185.42" y="152.4" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="182.88" y="157.226" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="182.88" y="146.812" size="1.778" layer="95" font="vector" rot="MR180"/>
+</instance>
+<instance part="R1" gate="G$1" x="195.58" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.056" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="197.104" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND4" gate="1" x="195.58" y="144.78" smashed="yes">
+<attribute name="VALUE" x="195.58" y="144.526" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11934,8 +11692,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="SUPPLY16" gate="G$1" pin="V_USB"/>
-<wire x1="152.4" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="152.4" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="152.4" x2="132.08" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="152.4" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11983,7 +11741,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="154.94" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="154.94" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -11996,12 +11754,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="228.6" y1="152.4" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="193.04" y1="160.02" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-<pinref part="S2" gate="1" pin="O"/>
-<wire x1="195.58" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND25" gate="1" pin="GND"/>
@@ -12128,6 +11880,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="180.34" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="195.58" y1="149.86" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -12199,9 +11957,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="152.4" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="V_BATT"/>
-<wire x1="149.86" y1="162.56" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="162.56" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -12272,26 +12030,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="205.74" y1="167.64" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="167.64" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="167.64" x2="195.58" y2="167.64" width="0.1524" layer="91"/>
 <junction x="203.2" y="167.64"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="167.64" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="167.64" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="167.64" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="167.64" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="VIN"/>
-<wire x1="193.04" y1="165.1" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
-<junction x="193.04" y="167.64"/>
-<pinref part="S2" gate="1" pin="S"/>
-<wire x1="195.58" y1="165.1" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="165.1" x2="195.58" y2="167.64" width="0.1524" layer="91"/>
+<junction x="195.58" y="167.64"/>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="157.48" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="162.56" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="162.56" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="165.1" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="G$1" pin="VIN"/>
-<wire x1="165.1" y1="165.1" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
-<junction x="165.1" y="162.56"/>
+<wire x1="157.48" y1="165.1" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
+<junction x="157.48" y="162.56"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
@@ -12303,8 +12060,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="VREG_EN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="EN"/>
-<pinref part="S2" gate="1" pin="P"/>
-<wire x1="205.74" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="152.4" x2="193.04" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<junction x="195.58" y="152.4"/>
 </segment>
 </net>
 <net name="RXI-0" class="0">
@@ -12321,7 +12084,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="U1" pin="~D48(TX0/SCL5/SCK5)"/>
 </segment>
 </net>
-<net name="~D7/MOSI" class="0">
+<net name="~12" class="0">
 <segment>
 <wire x1="121.92" y1="96.52" x2="124.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="124.46" y="96.52" size="1.27" layer="95" xref="yes"/>
@@ -12333,7 +12096,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="~D6/MISO" class="0">
+<net name="~13" class="0">
 <segment>
 <wire x1="121.92" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <label x="124.46" y="99.06" size="1.27" layer="95" xref="yes"/>
@@ -12345,7 +12108,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="~D5/SCK" class="0">
+<net name="~11" class="0">
 <segment>
 <wire x1="121.92" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
 <label x="124.46" y="101.6" size="1.27" layer="95" xref="yes"/>
@@ -12357,7 +12120,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="~AD33/SWO" class="0">
+<net name="~A1" class="0">
 <segment>
 <wire x1="53.34" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <label x="50.8" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12435,7 +12198,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="U1" pin="XI"/>
 </segment>
 </net>
-<net name="~AD29" class="0">
+<net name="~A3" class="0">
 <segment>
 <wire x1="53.34" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
 <label x="50.8" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12447,7 +12210,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="6"/>
 </segment>
 </net>
-<net name="~AD11" class="0">
+<net name="~A2" class="0">
 <segment>
 <wire x1="53.34" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <label x="50.8" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12459,7 +12222,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="7"/>
 </segment>
 </net>
-<net name="~AD35" class="0">
+<net name="~A14" class="0">
 <segment>
 <wire x1="53.34" y1="45.72" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <label x="50.8" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12485,7 +12248,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="U1" pin="(PDMCLK/SWO)~D22"/>
 </segment>
 </net>
-<net name="~AD32" class="0">
+<net name="~A15" class="0">
 <segment>
 <wire x1="53.34" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
 <label x="50.8" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12497,7 +12260,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="7"/>
 </segment>
 </net>
-<net name="~AD12" class="0">
+<net name="~A16" class="0">
 <segment>
 <wire x1="53.34" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
 <label x="50.8" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12509,7 +12272,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="~AD13" class="0">
+<net name="~A0" class="0">
 <segment>
 <wire x1="53.34" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <label x="50.8" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12521,7 +12284,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="~D42" class="0">
+<net name="~7" class="0">
 <segment>
 <wire x1="121.92" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
 <label x="124.46" y="40.64" size="1.27" layer="95" xref="yes"/>
@@ -12533,7 +12296,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="2"/>
 </segment>
 </net>
-<net name="~D43" class="0">
+<net name="~6" class="0">
 <segment>
 <wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <label x="124.46" y="38.1" size="1.27" layer="95" xref="yes"/>
@@ -12545,7 +12308,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J7" gate="J1" pin="3"/>
 </segment>
 </net>
-<net name="D38" class="0">
+<net name="8" class="0">
 <segment>
 <wire x1="121.92" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <label x="124.46" y="50.8" size="1.27" layer="95" xref="yes"/>
@@ -12564,7 +12327,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="U1" pin="(CMPRF0/SCCCLK/I2SBCLK)~D19"/>
 </segment>
 </net>
-<net name="~D39/TX1" class="0">
+<net name="~9" class="0">
 <segment>
 <wire x1="121.92" y1="48.26" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <label x="124.46" y="48.26" size="1.27" layer="95" xref="yes"/>
@@ -12576,7 +12339,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="D40/RX1" class="0">
+<net name="10" class="0">
 <segment>
 <wire x1="121.92" y1="45.72" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
 <label x="124.46" y="45.72" size="1.27" layer="95" xref="yes"/>
@@ -12588,7 +12351,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="~AD31" class="0">
+<net name="~A5" class="0">
 <segment>
 <wire x1="185.42" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="180.34" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12600,7 +12363,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="U1" pin="~AD31(SCCCLK)"/>
 </segment>
 </net>
-<net name="~D18" class="0">
+<net name="~4" class="0">
 <segment>
 <wire x1="185.42" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="180.34" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -12941,10 +12704,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="144.78" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="142.24" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 <junction x="66.04" y="142.24"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
 <pinref part="U6" gate="U1" pin="VCC"/>
+<wire x1="71.12" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="129.54" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U6" gate="U1" pin="V3"/>
+<wire x1="71.12" y1="139.7" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
+<junction x="71.12" y="139.7"/>
+<junction x="71.12" y="142.24"/>
 </segment>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -13104,14 +12875,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J10" gate="J1" pin="D+"/>
 <wire x1="38.1" y1="134.62" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U6" gate="U1" pin="UD+"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="81.28" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="129.54" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U6" gate="U1" pin="V3"/>
 </segment>
 </net>
 <net name="CC2" class="0">
