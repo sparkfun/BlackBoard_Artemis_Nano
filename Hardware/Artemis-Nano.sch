@@ -11550,6 +11550,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="213.36" y="180.34" size="2.54" layer="94" ratio="15" align="center">3.3V Regulator</text>
 <text x="76.2" y="119.38" size="1.778" layer="97">Artemis VCC Range:
 1.76-3.6V</text>
+<text x="43.18" y="147.32" size="1.778" layer="97" ratio="15">Charge rate set to 500mA</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
