@@ -18,7 +18,8 @@ Repository Contents
 
 Documentation
 -------------------
-* **[Hookup Guide for the BlackBoard Artemis Nano](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-blackboard-artemis-nano)
+
+* **[Hookup Guide for the BlackBoard Artemis Nano](https://learn.sparkfun.com/tutorials/hookup-guide-for-the-blackboard-artemis-nano)**
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)** - Layout and design considerations when using the Artemis module.
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)** - Introduction to the Arduino core for the Artemis Module.
 * **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)** - Getting set up with the Apollo3 Software Development Kit.
